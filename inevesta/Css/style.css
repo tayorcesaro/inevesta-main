@@ -3,13 +3,16 @@
 .navbar-brandd{
     position: relative;
      right: 110px;
+     color:blue;
 }
 body{
     color: white;
 }
 
+
 main img{
   width: 100%;
+  border: 12px solid white;
 }
 
 main p{
