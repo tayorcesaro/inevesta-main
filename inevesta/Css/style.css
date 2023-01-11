@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+
+.navbar-brandd{
+    position: relative;
+     right: 110px;
+}
+body{
+    color: white;
+}
+
+main img{
+  width: 100%;
+}
+
+main p{
+    text-align: center;
+}
+
+
+
+main h2{
+    text-align: center;
+    font-family:'Space Grotesk', sans-serif;
+    padding-top: 40px;
+}
+
+header{
+    padding: 30px;
+    padding-top: 320px;
+    background-color: black;
+    background-image: url(/inevesta/images/wavehomepage.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width:600px) {
+    main h2{
+        text-align: start;
+        padding-left: 100px;
+        padding-top: 120px;
+        font-size: 90px;
+    }
+    
+    main img{
+        float: right;
+        width: 700px;
+        padding-right: 130px;
+        padding-top: 10px;
+    }
+
+    header{
+        padding: 30px;
+        padding-top: 280px;
+        background-color:rgb(0, 0, 0);
+    }
+
+    main p{
+        padding-top: 50px;
+        text-align: start;
+    }
+
+    p{
+        position: relative;
+        text-align: start;
+        padding: 20px;
+        font-size: small;
+    }
+
+    #inevesta{
+        letter-spacing:5px;
+        font-weight: 800;
+    }
+    
+}
