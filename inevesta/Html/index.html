@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="google_translate_element">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,36 +7,55 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="/inevesta/Css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Welcome to inevesta</title>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+      }
+      </script>
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+<nav class="shadow-sm navbar navbar-expand-lg navbar-light fixed-top bg-white">
   <div class="container-fluid">
-    <a class="navbar-brand navbar-brandd" href="#"><img src="/inevesta/images/inevesta.svg" width="300px" height="150px" alt=""></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-lg-center" id="navbarNavDropdown">
+    <a class="navbar-brand navbar-brandd" href="#"><img src="/inevesta/images/inevesta.svg" alt=""></a>
+      <span class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><img src="/inevesta/images/menu(1).png" width="50px" alt=""></span>
+
+    <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" aria-current="page" href="/inevesta/Html/index.html"><span class="nav-text">Home</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="/inevesta/Html/About us.html"><span class="nav-text">About us</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="/inevesta/Html/investmentplans.html"><span class="nav-text">Investment plans</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href=""><span class="nav-text">Contact us</span></a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle mb-lg-2" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
+          <a class="nav-link dropdown-toggle mb-lg-1" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
           </a>
-          <ul class="dropdown-menu mt-4" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <ul class="dropdown-menu mt-2 mb-4" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Crypto assets</a></li>
+            <li><a class="dropdown-item" href="#">NFP</a></li>
+            <li><a class="dropdown-item" href="#">Financial Services</a></li>
+            <li><a class="dropdown-item" href="#">Mutual Funds And Initial Public Offerings (IPOs)</a></li>
+            <li><a class="dropdown-item" href="#">Portfolio Management Services (PMS)</a></li>
+            <li><a class="dropdown-item" href="#">Structure Finance</a></li>
+            <li><a class="dropdown-item" href="#">Consulting Services</a></li>
           </ul>
+        </li>
+        <li>
+          <button class="btn-gradient-1-nav"><img src="/inevesta/images/id.gif" width="30px" alt=""> <span>Sign up</span></button>
+          <span>
+            <button class="btn-gradient-1-nav"><img src="/inevesta/images/login.gif" width="30px" alt=""><span>Sign in</span></button>
+          </span>
         </li>
       </ul>
     </div>
@@ -47,31 +66,120 @@
 <header>
   <div>
     <main>
-      <img class="animate__animated animate__bounce" style="border-radius: 22px;" src="/inevesta/images/inevestahomepageimagepng.png" width="100%" alt="">
+      <img class="animate__animated animate__fadeIn animate__delay-2s" style="border-radius: 22px;" src="/inevesta/images/inevestahomepageimagepng.png" width="100%" alt="">
     
-      <h2>Welcome to <br> <span id="inevesta">inevesta</span></h2>
+      <h2 class="animate__animated animate__lightSpeedInLeft animate__delay-3s" >Welcome to <br> <span id="inevesta" class="animate__animated animate__bounceInLeft">inevesta</span></h2>
     
     
-      <p>deleniti ea ex neque itaque Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore repellendus <br> dolorem consequatur harum iste. <br> Ut vel, modi, provident sequi voluptate non dolore, praesentium ipsam asperiores corporis sint aut aperiam!</p>
+      <p class="animate__animated animate__lightSpeedInRight animate__delay-4s">Decentralized Ledger-Based Global Full Reserve Equity Investment Management</p>
+
+      <div class="parent">
+        <button class="btn-gradient-1">Learn More </button>
+        <button class="btn-gradient-1">Get started</button>
+      </div>
     
     </main>
   </div>
 </header>
 
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
+
+<section class="shadow-lg p-5 mb-5 bg-white rounded">
+  <div class="text">
+    <div class="text-center mt-3"><H2  style="font-weight: 900; color: rgb(22, 1, 97); font-size: 30px;"> Who are we ? "Inevesta"</H2></div>
+    <h3 class="animate__animated animate__fadeInBottomLeft animate__delay-2s text-lg-start animate__animated animate__backInUp animate__delay-1s" style="color: black; text-align: start; font-weight: 400; font-style: italic; padding: 20px;">"We set the pace, <br>The rest of the world follows."</h3>
+    <p class="" style="color: black; text-align: start; padding: 20px;">We defy convention as high-conviction investors. Instead, we concentrate on undervalued <span style="color: rgb(6, 6, 144); font-weight: 600;">equities & digital assest</span> because we believe they have the best chance of generating long-term profits. <br> This is so because companies that are in demand are frequently overpriced, while equities and cryptocurrencies that are out of favor are frequently underpriced. Our goal is to take advantage of this inefficiency for our investors.</p>
+    <button class="btn-gradient-1-nav btn-gradient-1-learnmore"> <span ><img style="position: relative; right: 14px; border-radius: 14px;" src="/inevesta/images/rocket.gif" width="40px" alt=""></span> Learn more</button>
+  </div>
+
+  <div class="text-dark">
+    <div class="container">
+      <div class="row row-cols-lg-2 w-100 row-cols-1 row-cols-auto ">
+        <div  class="col shadow mt-5 mb-5 bg-white rounded">
+          <div>
+            <img src="/inevesta/images/assetmanagement.gif" width="60px" alt="">
+            <H3>Assest Management</H3>
+            <p>We help our clients establish and access options to achieve their strategic financial goals since we are a trusted advisor to them.</p>
+          </div>
+        </div>
+
+        <div class="col shadow mb-5  bg-white rounded">
+          <div class="">
+            <img src="/inevesta/images/connection.gif" width="60px" alt="">
+            <H3>Mutual Funds</H3>
+            <p>Give the task of making you richer than before to the professionals.</p>
+          </div>
+        </div>
+
+        <div class="col shadow mt-5 mb-5 bg-d rounded">
+          <div>
+            <img src="/inevesta/images/bitcoin.gif" width="60px" alt="">
+            <H3>Wealth Management</H3>
+            <p>We make it simple to do the difficult duty of advising wealthy families, sometimes spanning several generations.</p>
+          </div>
+        </div>
+        <div class="col shadow mb-5 bg-white rounded">
+          <div>
+            <img src="/inevesta/images/wallet.gif" width="60px" alt="">
+            <H3>Brokerage Account</H3>
+            <p>Your money is safe and sound and you get guaranteed returns</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<div id="carouselExampleSlidesOnly" class="carousel slide  shadow-sm p-3 mt-4 mb-5 bg-white rounded" data-bs-ride="carousel">
+  <span class="text-dark mb-4 mt-3 d-flex justify-content-center">Partners & Sponsors</span>
+  <div class="carousel-inner mt-5">
     <div class="carousel-item active">
-      <img src="https://i.ibb.co/Mh12R6j/09-DABABB-7743-44-E5-831-C-96-B337-E380-C7.webp" class="d-flex justify-content-center w-25 w-lg-50" alt="...">
+      <img src="https://i.ibb.co/Mh12R6j/09-DABABB-7743-44-E5-831-C-96-B337-E380-C7.webp" class="carouselimg" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="https://i.ibb.co/Mh12R6j/09-DABABB-7743-44-E5-831-C-96-B337-E380-C7.webp" class="carouselimg" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="https://i.ibb.co/Mh12R6j/09-DABABB-7743-44-E5-831-C-96-B337-E380-C7.webp" class="carouselimg" alt="...">
     </div>
   </div>
 </div>
 
+<div>
+<!-- Button trigger modal -->
+<div class="clicktowatch mb-5">
+  <button type="button"  class="btn-gradient-1-nav" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Click to learn more 
+  </button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-dark" id="staticBackdropLabel">More About Inevesta</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/01zwNYzaajs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-gradient-1-nav" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+<script>
+    AOS.init();
+  </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://kit.fontawesome.com/3a3afcb5ea.js" crossorigin="anonymous"></script>
 <script src="/inevesta/Javascript/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
